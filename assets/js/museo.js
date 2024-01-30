@@ -63,3 +63,15 @@ $("#barra").click(function(){
       }
     }
   });
+
+
+  $(function () { 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 70) { 
+            $('.logo2').css("font-size","30px");
+        }
+        if ($(this).scrollTop() < 70) { 
+            $('.logo2').css("font-size","50px");
+        }
+    })
+});

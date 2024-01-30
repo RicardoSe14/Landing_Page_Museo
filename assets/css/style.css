@@ -33,17 +33,20 @@
     font-family: 'Work Sans', sans-serif !important;
     color: #000000;
     text-decoration: none !important;
-    font-size:  calc(1.8rem + 0.7vw) !important;
+    font-size:  calc(30px) ;
     font-weight: 500 !important;
     margin-left: -2px !important;
+    transition: 200ms !important;
 }
-.logo:hover {
+.logo2:hover {
     color: #000000;
 }
 
 
 .links {
+    position: sticky;
     float: right;
+    top: 20px !important;
 }
 
 .arriba {
@@ -54,12 +57,12 @@
 .menu {
     background-color: rgba(255, 255, 255, 0.7);
     top: 0;
-    position: sticky !important;
-    position: -webkit-sticky !important;
+    position: fixed;
     z-index: 100000 !important;
 }
 
 .vcentrar {
+    padding-top: 115px !important ;
     display: flex;
     align-items: center;
     font-family: 'Work Sans', sans-serif !important;
@@ -186,3 +189,4 @@ h6 {
 .Copyright {
     background-color: #f4f2f2 !important;
 }
+
